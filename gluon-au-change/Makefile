@@ -11,12 +11,12 @@ include $(TOPDIR)/../package/gluon.mk
 define Package/$(PKG_NAME)
   SECTION:=gluon
   CATEGORY:=Gluon
-  TITLE:=changes autoupdater branch to stable
+  TITLE:=changes autoupdater branch to testing
   DEPENDS:=+gluon-core
 endef
 
 define Package/$(PKG_NAME)/description
-  changes autoupdater branch to stable
+  changes autoupdater branch to testing
 endef
 
 define Build/Prepare
